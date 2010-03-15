@@ -1,12 +1,12 @@
 waituntil{time > 1};
 
 _text = format["
-DAC-Logik INTERN + Grundeinstellungen
-\n\nUm die Grundeinstellungen vom DAC zu veraendern, gibt es die Datei ""DAC_Config_Creator"".
-\n\nDiese Config-Datei musst Du nicht zwingend auslagern, um die Einstellungen zu aendern. Du kannst diese Grundparameter z.B. einfach ueber eine weitere Logik-Einheit ansprechen bzw. aendern.
+DAC-Logic INTERN + Basic setup
+\n\nIn order to change the basic setup of DAC, you can alter the ""DAC_Config_Creator"" file in your mission folder.
+\n\nYou are not forced to store this file into your mission folder. It is possible to alter basic params via a Logic.
 \n\nAls Beispiel gilt diese Mission, in der ich einige Grundparameter einfach per Logik-Einheit anspreche.
-\n\nDas hat den Vorteil, dass Du diese Einstellungen direkt im Editor vornehmen kannst und nicht den Umweg ueber eine Datei machen musst.
-\n\nSchau Dir die Datei ""DAC_Config_Creator"" genau an, um zu sehen welche Eistellungen Du ueber diesen Weg vornehmen kannst.
-\n\nInfo: In dieser Mission wurden nur etwa die Haelfte aller Grundeinstellungen verwendet.
+\n\nThis gives you the advantage to change the DAC2 setup in the ArmA2 ingame editor.
+\n\nCheck the ""DAC_Config_Creator"" file in order to see which params you can change with this method. 
+\n\nNote: This mission only contains half of the basic parameters you can use.
 "];
-"DAC V3.0 Beispielmission - Teil 32" hintC [_text];
+"DAC V3.0 Demonstration - Part 32" hintC [_text];
